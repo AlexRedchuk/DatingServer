@@ -1,0 +1,4 @@
+{
+    "port": 8080,
+    "mongoURI": "mongodb+srv://admin:admin@datingcluster.yhpqm.mongodb.net/DatingBase?retryWrites=true&w=majority"
+}
