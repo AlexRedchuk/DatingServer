@@ -12,6 +12,7 @@ app.use('/api/test',auth, require('./routes/like.routes'))
 app.use(express.urlencoded({extended: true}));
 app.use(cors());
 app.use(express.json());
+app.use(require("./routes/image.routes"));
 app.use('/uploads', express.static('uploads'))
 app.use('/api/users', require('./routes/user.routes'));
 app.use('/api/likes', require('./routes/like.routes'))
